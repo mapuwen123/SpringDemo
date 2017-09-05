@@ -7,6 +7,7 @@ public class Student {
     private int age;
 
     public String getName() {
+        System.out.println("Name:" + name);
         return name;
     }
 
@@ -16,11 +17,17 @@ public class Student {
     }
 
     public int getAge() {
+        System.out.println("Age:" + age);
         return age;
     }
 
     @Required
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public void printThrowException(){
+        System.out.println("Exception raised");
+        throw new IllegalArgumentException();
     }
 }

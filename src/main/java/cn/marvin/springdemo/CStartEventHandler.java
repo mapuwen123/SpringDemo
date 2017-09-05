@@ -1,11 +1,12 @@
 package cn.marvin.springdemo;
 
 import org.springframework.context.ApplicationListener;
-import org.springframework.context.event.ContextStoppedEvent;
+import org.springframework.context.event.ContextStartedEvent;
 
-public class CStartEventHandler implements ApplicationListener<ContextStoppedEvent> {
+public class CStartEventHandler implements ApplicationListener<ContextStartedEvent> {
+
     @Override
-    public void onApplicationEvent(ContextStoppedEvent event) {
-        System.out.println("ContextStartedEvent Received");
+    public void onApplicationEvent(ContextStartedEvent event) {
+        System.out.println("开始！");
     }
 }

@@ -46,4 +46,9 @@ dependencies {
     compile group: 'org.springframework', name: 'spring-webmvc', version: '4.3.10.RELEASE'
     compile group: 'org.springframework', name: 'spring-webmvc-portlet', version: '4.3.10.RELEASE'
     compile group: 'org.springframework', name: 'spring-websocket', version: '4.3.10.RELEASE'
+
+    // AOP
+    compile group: 'org.aspectj', name: 'aspectjrt', version: '1.8.10'
+    compile group: 'org.aspectj', name: 'aspectjweaver', version: '1.8.10'
+    compile group: 'aopalliance', name: 'aopalliance', version: '1.0'
 }
