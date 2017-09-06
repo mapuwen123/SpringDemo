@@ -8,6 +8,8 @@ public class JDBCMain {
         ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
         UserJDBCTemplate userJDBCTemplate = (UserJDBCTemplate) context.getBean("userJDBCTemplate");
         userJDBCTemplate.createUser("mapuwen", "123");
+        userJDBCTemplate.createUser("mapuwen", "123");
+        userJDBCTemplate.deleteUser("mapuwen");
         User user = userJDBCTemplate.getUser(3);
         System.out.println("id:" + user.getId() + "\nname:" + user.getName() + "\npassword:" + user.getPassword());
     }
