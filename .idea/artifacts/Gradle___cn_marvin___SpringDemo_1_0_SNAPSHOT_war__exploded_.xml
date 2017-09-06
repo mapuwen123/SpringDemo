@@ -17,9 +17,10 @@
           <element id="dir-copy" path="$PROJECT_DIR$/out/production/resources" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Gradle: org.aspectj:aspectjrt:1.8.10" />
+          <element id="library" level="project" name="Gradle: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Gradle: javax:javaee-api:7.0" />
           <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-orm:4.3.10.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.10.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-aspects:4.3.10.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.3.10.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.3.10.RELEASE" />
@@ -31,7 +32,7 @@
           <element id="library" level="project" name="Gradle: org.springframework:spring-jdbc:4.3.10.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-jms:4.3.10.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-messaging:4.3.10.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.10.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-orm:4.3.10.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-oxm:4.3.10.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-test:4.3.10.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-tx:4.3.10.RELEASE" />
@@ -39,12 +40,12 @@
           <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.3.10.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc-portlet:4.3.10.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-websocket:4.3.10.RELEASE" />
-          <element id="library" level="project" name="Gradle: com.sun.mail:javax.mail:1.5.0" />
+          <element id="library" level="project" name="Gradle: org.aspectj:aspectjrt:1.8.10" />
           <element id="library" level="project" name="Gradle: org.aspectj:aspectjweaver:1.8.10" />
-          <element id="library" level="project" name="Gradle: javax.activation:activation:1.1" />
-          <element id="library" level="project" name="Gradle: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Gradle: aopalliance:aopalliance:1.0" />
-          <element id="library" level="project" name="Gradle: javax:javaee-api:7.0" />
+          <element id="library" level="project" name="Gradle: com.sun.mail:javax.mail:1.5.0" />
+          <element id="library" level="project" name="Gradle: javax.activation:activation:1.1" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/6.0.6/1d19b184dbc596008cc71c83596f051c3ec4097f/mysql-connector-java-6.0.6.jar" />
         </element>
       </element>
     </root>

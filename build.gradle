@@ -51,4 +51,7 @@ dependencies {
     compile group: 'org.aspectj', name: 'aspectjrt', version: '1.8.10'
     compile group: 'org.aspectj', name: 'aspectjweaver', version: '1.8.10'
     compile group: 'aopalliance', name: 'aopalliance', version: '1.0'
+
+    // jdbc
+    compile group: 'mysql', name: 'mysql-connector-java', version: '6.0.6'
 }
