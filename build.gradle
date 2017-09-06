@@ -53,5 +53,5 @@ dependencies {
     compile group: 'aopalliance', name: 'aopalliance', version: '1.0'
 
     // jdbc
-    compile group: 'mysql', name: 'mysql-connector-java', version: '6.0.6'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.44'
 }
